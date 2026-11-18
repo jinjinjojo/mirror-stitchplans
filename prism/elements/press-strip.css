@@ -1,0 +1,1 @@
+.press-strip{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:var(--s-2) var(--s-7);margin:0;padding:var(--s-5) 0;border-block:1px solid var(--line);color:var(--fog);font-size:var(--fs-lg);font-weight:600;list-style:none}

@@ -1,0 +1,1 @@
+.phone-frame{width:min(240px,100%);margin:0 auto;padding:var(--s-2);border:1px solid var(--line3);border-radius:var(--r-panel);background:var(--surface-2);box-shadow:var(--sh-sm)}.phone-frame img{display:block;width:100%;aspect-ratio:9/19;border-radius:var(--r-card);object-fit:cover}

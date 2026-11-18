@@ -1,0 +1,1 @@
+import{define as r}from"../core.js";r(".video-embed",e=>{e.querySelector("button")?.addEventListener("click",()=>{const t=Object.assign(document.createElement("iframe"),{src:e.dataset.src,title:e.dataset.title||"Video",allowFullscreen:!0,allow:"autoplay; encrypted-media; picture-in-picture"});e.replaceChildren(t),t.focus()},{once:!0})});

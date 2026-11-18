@@ -1,0 +1,1 @@
+.pay-marks{display:flex;flex-wrap:wrap;gap:var(--s-1);margin:0;padding:0;list-style:none}.pay-marks li{padding:2px var(--s-2);border:1px solid var(--line2);border-radius:var(--s-1);color:var(--ink-2);font-size:var(--fs-xs);font-weight:600}

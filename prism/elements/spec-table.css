@@ -1,0 +1,1 @@
+.spec-table{margin:0}.spec-table div{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:var(--s-3);padding-block:var(--s-2);border-bottom:1px solid var(--line)}.spec-table dt{color:var(--fog)}.spec-table dd{margin:0}

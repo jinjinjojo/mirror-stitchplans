@@ -1,0 +1,1 @@
+.filter-bar{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s-2) var(--s-3);padding-block:var(--s-3);border-block:1px solid var(--line)}.filter-bar-chips{display:flex;flex:1 1 280px;gap:var(--s-2);min-width:0;overflow-x:auto;scrollbar-width:none}.filter-bar-chips>*{flex:none}.filter-bar-count{color:var(--fog);font-size:var(--fs-sm);white-space:nowrap}

@@ -1,0 +1,1 @@
+.save-state{display:inline-flex;align-items:center;gap:var(--s-1);color:var(--fog);font-size:var(--fs-sm)}.save-state .ico{width:14px;height:14px}.save-state.saved .ico{color:var(--good)}.save-state.failed{color:var(--bad)}

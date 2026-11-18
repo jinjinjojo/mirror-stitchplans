@@ -1,0 +1,1 @@
+.area-chips{display:grid;gap:var(--s-3)}.area-chips b{font-weight:600}.area-chips ul{display:flex;flex-wrap:wrap;gap:var(--s-2);margin:0;padding:0;list-style:none}.area-chips li{padding:var(--s-1) var(--s-3);border:1px solid var(--line2);border-radius:var(--r-pill);font-size:var(--fs-md)}

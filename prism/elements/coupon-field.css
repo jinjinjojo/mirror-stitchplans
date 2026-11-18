@@ -1,0 +1,1 @@
+.coupon-field{display:grid;gap:var(--s-1)}.coupon-field>div{display:flex;gap:var(--s-2)}.coupon-field input{flex:1}.coupon-field small{color:var(--fog);font-size:var(--fs-sm)}

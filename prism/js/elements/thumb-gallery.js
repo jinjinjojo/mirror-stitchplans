@@ -1,0 +1,1 @@
+import{define as o}from"../core.js";o(".thumb-gallery",e=>{const t=e.querySelector(".thumb-gallery-main"),r=t?.alt??"";e.addEventListener("click",s=>{const a=s.target.closest("[data-full]");if(!(!a||!t)){t.src=a.dataset.full,t.alt=a.dataset.alt??r;for(const l of e.querySelectorAll("[data-full]"))l.setAttribute("aria-pressed",l===a)}})});

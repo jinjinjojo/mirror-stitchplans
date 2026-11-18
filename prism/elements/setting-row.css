@@ -1,0 +1,1 @@
+.setting-row{display:flex;align-items:center;justify-content:space-between;gap:var(--s-4);padding-block:var(--s-3);border-bottom:1px solid var(--line)}.setting-row>div{min-width:0}.setting-row b{display:block;font-weight:600}.setting-row small{color:var(--fog);font-size:var(--fs-sm)}

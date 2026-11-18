@@ -1,0 +1,1 @@
+.pros-cons{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:var(--s-4)}.pros-cons>div{display:grid;align-content:start;gap:var(--s-2);padding:var(--s-4);border:1px solid var(--line2);border-radius:var(--r-card)}.pros-cons b{font-weight:600}.pros-cons ul{display:grid;gap:var(--s-2);margin:0;padding-inline-start:var(--s-4);color:var(--ink-2)}

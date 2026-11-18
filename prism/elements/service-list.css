@@ -1,0 +1,1 @@
+.service-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:0 var(--s-7);margin:0;padding:0;list-style:none}

@@ -1,0 +1,1 @@
+.scn{--scn-gap:var(--s-3);display:grid;gap:var(--scn-gap);min-width:0}.scn.sandbox .scn-pick select{border-color:var(--warm)}.scn [data-sandbox][hidden]{display:none}

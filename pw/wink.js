@@ -1,0 +1,1 @@
+export const tabTitle=(n,e,o=!1)=>e?(o?"Back online - ":"")+n:"Offline - "+n;export function nearer(n){const e=[...new Set(String(n).toLowerCase().split(/[^\p{L}\p{N}]+/u).filter(t=>t.length>2))].sort((t,r)=>r.length-t.length),o=[...e];if(e[0])for(const t of[4,3])e[0].length>t&&o.push(e[0].slice(0,t));return[...new Set(o)].filter(t=>t!==String(n).trim().toLowerCase())}

@@ -1,0 +1,1 @@
+.undo-bar{display:flex;align-items:center;justify-content:space-between;gap:var(--s-3);padding:var(--s-2) var(--s-2) var(--s-2) var(--s-4);border:1px solid var(--line2);border-radius:var(--r-card);background:var(--solid);box-shadow:var(--sh-sm);font-size:var(--fs-md)}

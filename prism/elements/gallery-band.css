@@ -1,0 +1,1 @@
+.gallery-band{display:flex;gap:var(--s-2);margin:0;padding:0;overflow-x:auto;list-style:none;scroll-snap-type:x proximity}.gallery-band li{flex:0 0 min(70%,320px);scroll-snap-align:start}.gallery-band img{display:block;width:100%;aspect-ratio:4/3;border-radius:var(--r-card);object-fit:cover}

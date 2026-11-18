@@ -1,0 +1,1 @@
+.date-tile{display:inline-grid;justify-items:center;width:56px;padding-block:var(--s-2);border:1px solid var(--line2);border-radius:var(--r-card);background:var(--surface);line-height:1.1}.date-tile small{color:var(--fog);font-size:var(--fs-xs);font-weight:600}.date-tile b{font-size:var(--fs-xl);font-weight:700;font-variant-numeric:tabular-nums}

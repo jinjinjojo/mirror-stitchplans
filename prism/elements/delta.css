@@ -1,0 +1,1 @@
+.delta{display:inline-flex;align-items:center;gap:2px;color:var(--fog);font-size:var(--fs-sm);font-weight:600;font-variant-numeric:tabular-nums}.delta .ico{width:14px;height:14px}.delta.up{color:var(--good)}.delta.down{color:var(--bad)}

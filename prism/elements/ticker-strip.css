@@ -1,0 +1,1 @@
+.ticker-strip{display:flex;gap:var(--s-5);margin:0;padding:var(--s-2) var(--s-3);overflow-x:auto;border-block:1px solid var(--line);list-style:none;font-size:var(--fs-sm);font-variant-numeric:tabular-nums;scrollbar-width:thin}.ticker-strip li{display:flex;flex:none;gap:var(--s-2)}.ticker-strip b{font-weight:600}

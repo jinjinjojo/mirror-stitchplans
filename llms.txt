@@ -1,0 +1,15 @@
+# Stitchplans
+
+> Knitting and crochet calculators that show the stitches: increase evenly, gauge, yarn needed and US/UK crochet terms.
+
+## Pages
+- [Increase or decrease evenly](https://stitchplans.vercel.app/): Spread increases or decreases evenly across a row or round. Get the written row (K5, M1, [k10, M1] 5 times), a stitch map and a count that adds up, for M1, kfb, yo, k2tog or crochet.
+- [Shaping over several rows](https://stitchplans.vercel.app/shaping): Spread increases or decreases over many rows. Get the pattern line, such as every 6th row 8 times then every 8th row 3 times, and a row-by-row list to tick off.
+- [Gauge calculator](https://stitchplans.vercel.app/gauge): Turn a swatch into stitches per 4 inches or 10 cm, find the cast-on for any width that fits your stitch pattern, and re-count a pattern for your own gauge.
+- [Size it to a body](https://stitchplans.vercel.app/sizing): Turn a chest or head measurement plus ease into stitches and rows at your gauge: body, sleeves and crown, with the sleeve shaping one tap away.
+- [How much yarn do I need?](https://stitchplans.vercel.app/yarn-needed): Work out the yarn for a project by weighing a swatch, swap a pattern's yarn for another, or find how much is left on a part ball from its weight.
+- [US and UK crochet terms converter](https://stitchplans.vercel.app/crochet-terms): Paste a crochet pattern and convert it between US and UK terms in one go (sc to dc, dc to tr, skip to miss), with every change highlighted.
+- [Knitting and crochet abbreviations](https://stitchplans.vercel.app/abbreviations): What ssk, kfb, w&t, sc2tog and the rest mean, with the UK name wherever it differs. Type to find one.
+- [Needle, hook and yarn weight charts](https://stitchplans.vercel.app/needle-and-hook-sizes): Knitting needle sizes in mm, US and old UK numbers, crochet hooks by letter, and the yarn weight system with the gauge and needle to start from.
+- [Head, foot and hand size charts](https://stitchplans.vercel.app/size-charts): Standard head, foot, sock and hand measurements from the Craft Yarn Council, with the stitches to cast on at your own gauge.
+- [Knitting and crochet size charts](https://stitchplans.vercel.app/body-size-charts): Standard chest, waist, hip, arm and length measurements for baby, child, women's and men's sizes from the Craft Yarn Council, with stitches at your gauge.

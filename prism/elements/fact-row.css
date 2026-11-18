@@ -1,0 +1,1 @@
+.fact-row{display:flex;flex-wrap:wrap;gap:var(--s-2) var(--s-5);margin:0;padding:0;color:var(--ink-2);font-size:var(--fs-md);list-style:none}.fact-row li{display:inline-flex;align-items:center;gap:var(--s-2)}.fact-row .ico{width:16px;height:16px;color:var(--fog)}

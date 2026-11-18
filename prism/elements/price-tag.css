@@ -1,0 +1,1 @@
+.price-tag{display:inline-flex;flex-wrap:wrap;align-items:baseline;gap:var(--s-1) var(--s-2);font-variant-numeric:tabular-nums}.price-tag b{font-size:var(--fs-xl);font-weight:700}.price-tag s{color:var(--fog);font-size:var(--fs-md)}.price-tag small{color:var(--fog);font-size:var(--fs-sm)}

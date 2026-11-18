@@ -1,0 +1,92 @@
+/* Stitchplans: laid out like a printed pattern. The home page is a bench (fields beside a pattern card with a swatch that knits
+   itself), then numbered rows. Colours come from Prism tokens and the accent. */
+.sp-even { display: grid; gap: 24px; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 980px) { .sp-even { grid-template-columns: minmax(300px, 4fr) minmax(0, 7fr); grid-template-rows: auto 1fr; align-items: start; } .sp-even > .hint { grid-column: 1; } .sp-even > .sp-out { grid-column: 2; grid-row: 1 / span 2; } }
+.sp-fields { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 130px), 1fr)); align-items: end; }
+.sp-even .sp-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.sp-sub { display: contents; }
+.sp-sub[hidden] { display: none; }
+.sp-count { margin: 0 0 12px; }
+.sp-count .muted { display: block; font-size: .85rem; margin-top: 2px; }
+.sp-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.sp-warn { padding: 10px 12px; border-radius: 8px; background: color-mix(in srgb, var(--bad) 12%, var(--surface)); }
+.sp-big { font-size: 1.25rem; margin: 12px 0 6px; }
+.sp-grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); align-items: stretch; }
+.sp-card { border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; background: var(--surface); }
+.sp-card h2 { margin: 0 0 6px; }
+.sp-card textarea { width: 100%; font: inherit; min-height: 9em; margin-top: 12px; }
+.sp-terms { white-space: pre-wrap; padding: 12px 14px; border-radius: 8px; background: var(--fill); margin: 8px 0 12px; line-height: 1.6; }
+.sp-terms mark { background: color-mix(in srgb, var(--accent) 22%, transparent); color: inherit; border-radius: 3px; padding: 0 2px; }
+
+/* the pattern card: the answer sits on a sheet of paper, the written row set large like a line in a printed pattern */
+.sp-out { position: relative; min-width: 0; padding: clamp(20px, 3vw, 32px); background: var(--surface); border-radius: 6px; box-shadow: 0 1px 0 oklch(.3 .05 50 / .08), 0 22px 40px -28px oklch(.3 .06 50 / .55); }
+.sp-eyebrow { margin: 0 0 6px; font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+.sp-row { font-family: var(--ld, inherit); font-size: clamp(1.45rem, 1.05rem + 1.5vw, 2.15rem); line-height: 1.28; margin: 0 0 12px; overflow-wrap: anywhere; }
+.sp-out h2 { margin: 20px 0 8px; }
+
+/* the bench: the home page's first screen */
+.sp-bench { display: grid; gap: clamp(20px, 3vw, 44px); grid-template-columns: minmax(0, 1fr); margin: clamp(8px, 2vw, 24px) 0 0; align-items: start; }
+@media (min-width: 980px) { .sp-bench { grid-template-columns: minmax(340px, 5fr) minmax(0, 7fr); } }
+.sp-intro h1 { margin: 0 0 10px; font-size: clamp(34px, 3.9vw, 54px); line-height: 1.04; }
+.sp-intro .sub { margin: 0 0 18px; max-width: 46ch; }
+.sp-bench .sp-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+/* two or three choices as one row of real radio buttons */
+.sp-seg { border: 0; padding: 0; margin: 0; min-width: 0; }
+.sp-seg legend { padding: 0; }
+.sp-seg > div { display: flex; padding: 3px; gap: 2px; border-radius: 999px; background: color-mix(in oklch, var(--accent) 9%, var(--surface)); }
+.sp-seg label { flex: 1; position: relative; min-width: 0; }
+.sp-seg input { position: absolute; inset: 0; margin: 0; opacity: 0; cursor: pointer; }
+.sp-seg span { display: flex; align-items: center; justify-content: center; min-height: 38px; padding: 0 8px; border-radius: 999px; font-size: .9rem; font-weight: 600; text-align: center; }
+.sp-seg input:checked + span { background: var(--accent); color: #fff; }
+.sp-seg input:focus-visible + span { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* the swatch: one V per stitch on a strip of knitted fabric; increases in a second yarn, decreases ringed */
+.sp-map { margin: 0 0 14px; }
+.sp-cells { display: flex; flex-wrap: wrap; gap: 1px 2px; padding: 12px; border-radius: 4px; background: color-mix(in oklch, var(--accent) 86%, #000); }
+.sp-cells i, .sp-map figcaption i { width: 14px; height: 16px; display: inline-block; position: relative; flex: none; }
+.sp-cells i::before, .sp-cells i::after, .sp-map figcaption i::before, .sp-map figcaption i::after { content: ""; position: absolute; top: 1px; width: 7px; height: 14px; border-radius: 6px 6px 6px 6px / 9px 9px 4px 4px; background: color-mix(in oklch, var(--accent) 62%, #fff); }
+.sp-cells i::before, .sp-map figcaption i::before { left: 0; transform: skewX(18deg); }
+.sp-cells i::after, .sp-map figcaption i::after { right: 0; transform: skewX(-18deg); }
+.sp-cells i.inc::before, .sp-cells i.inc::after { background: oklch(.84 .13 85); }
+.sp-cells i.dec::before, .sp-cells i.dec::after { background: transparent; border: 2px solid oklch(.84 .13 85); box-sizing: border-box; }
+.sp-map figcaption i.inc::before, .sp-map figcaption i.inc::after { background: oklch(.7 .14 80); }
+.sp-map figcaption i.dec::before, .sp-map figcaption i.dec::after { background: transparent; border: 2px solid var(--accent); box-sizing: border-box; }
+.sp-map figcaption { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: .85rem; color: var(--dim); margin-top: 8px; }
+.sp-map figcaption span { display: inline-flex; gap: 6px; align-items: center; }
+@media (prefers-reduced-motion: no-preference) { .sp-cells.knit i { animation: sp-knit .2s ease-out calc(var(--i, 0) * 9ms) both; } }
+@keyframes sp-knit { from { opacity: 0; transform: translateY(-5px); } }
+
+.sp-ticks { margin: 12px 0 0; }
+.sp-ticks summary { cursor: pointer; font-weight: 600; min-height: 32px; }
+
+/* shaping: the outline of the piece */
+.sp-shape { margin: 16px 0 0; }
+.sp-shape svg { display: block; width: 100%; max-height: 170px; }
+.sp-shape polygon { fill: color-mix(in oklch, var(--accent) 16%, var(--surface)); stroke: var(--accent); stroke-width: 1.5; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.sp-shape figcaption { font-size: .85rem; color: var(--dim); margin-top: 6px; }
+
+/* under the bench: the counter beside the pattern's numbered rows */
+.sp-desk { display: grid; gap: clamp(20px, 3vw, 40px); grid-template-columns: minmax(0, 1fr); margin-top: clamp(32px, 5vw, 64px); align-items: start; }
+@media (min-width: 980px) { .sp-desk { grid-template-columns: minmax(0, 1fr); } } /* the row counter is hidden until its script runs: the sheet stays in its own column meanwhile */
+.sp-sheet h2 { margin: 0 0 12px; }
+.sp-kit { list-style: none; margin: 0; padding: 0; counter-reset: row; }
+.sp-kit li { counter-increment: row; border-top: 1px solid color-mix(in oklch, var(--accent) 22%, transparent); }
+.sp-kit a { display: block; padding: 12px 4px; color: inherit; text-decoration: none; }
+.sp-kit a::before { display: block; content: "Row " counter(row); grid-row: span 2; font-family: var(--ld, inherit); color: var(--accent); padding-top: 1px; }
+.sp-kit b { font-weight: 700; }
+.sp-kit span { display: block; color: var(--dim); }
+.sp-kit a:hover b { text-decoration: underline; text-underline-offset: 3px; }
+@media (min-width: 760px) { .sp-kit a { display: grid; gap: 0 12px; grid-template-columns: 4.2em minmax(0, 15em) minmax(0, 1fr); } .sp-kit a::before { grid-row: auto; } .sp-kit span { display: inline; } }
+
+/* inner pages: what the pattern says you need, and where the project goes next */
+.sp-need { grid-column: 1 / -1; flex-basis: 100%; margin: 10px 0 0; font-size: .95rem; color: var(--dim); }
+.sp-need b { color: var(--ink); margin-right: 4px; }
+.sp-find { max-width: 520px; }
+.sp-card table { width: 100%; margin: 8px 0; }
+.sp-card th { font-weight: 500; text-align: left; }
+.sp-next { margin: clamp(32px, 5vw, 56px) 0 0; padding-top: 18px; border-top: 2px dashed color-mix(in oklch, var(--accent) 40%, transparent); }
+.sp-next h2 { margin: 0 0 10px; }
+.sp-next ul { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; margin: 0; padding: 0; }
+.sp-next a { display: inline-flex; align-items: center; min-height: 40px; padding: 0 14px; border-radius: 999px; background: var(--surface); font-weight: 600; font-size: .92rem; text-decoration: none; color: inherit; box-shadow: 0 0 0 1px color-mix(in oklch, var(--accent) 25%, transparent); }
+.sp-next a:hover { box-shadow: 0 0 0 2px var(--accent); }

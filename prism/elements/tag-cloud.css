@@ -1,0 +1,1 @@
+.tag-cloud{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s-1) var(--s-3);margin:0;padding:0;list-style:none}.tag-cloud a{color:var(--ink-2);text-decoration:none}.tag-cloud a:hover{color:var(--ink);text-decoration:underline}.tag-cloud .s1 a{font-size:var(--fs-sm)}.tag-cloud .s2 a{font-size:var(--fs-lg)}.tag-cloud .s3 a{font-size:var(--fs-xl);font-weight:600}

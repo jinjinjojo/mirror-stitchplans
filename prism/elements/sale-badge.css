@@ -1,0 +1,1 @@
+.sale-badge{position:absolute;inset-block-start:var(--s-2);inset-inline-start:var(--s-2);z-index:1;padding:2px var(--s-2);border-radius:var(--s-1);background:var(--accent);color:var(--on-accent);font-size:var(--fs-xs);font-weight:700}.sale-badge.soft{background:var(--solid);color:var(--ink)}

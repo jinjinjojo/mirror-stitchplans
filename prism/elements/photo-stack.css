@@ -1,0 +1,1 @@
+.photo-stack{position:relative;display:grid;width:min(280px,100%);margin-inline:auto}.photo-stack img{grid-area:1/1;width:100%;aspect-ratio:4/5;padding:var(--s-2);border-radius:var(--r-ctl);background:var(--surface);box-shadow:var(--sh-sm);object-fit:cover}.photo-stack img:nth-child(1){transform:rotate(-5deg)}.photo-stack img:nth-child(2){transform:rotate(4deg)}

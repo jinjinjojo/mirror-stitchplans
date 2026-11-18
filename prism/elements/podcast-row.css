@@ -1,0 +1,1 @@
+.podcast-row{display:grid;grid-template-columns:64px 1fr auto;align-items:center;gap:var(--s-3);padding-block:var(--s-3);border-bottom:1px solid var(--line)}.podcast-row img{width:64px;height:64px;border-radius:var(--r-ctl);object-fit:cover}.podcast-row b{display:block;font-weight:600}.podcast-row small{color:var(--fog);font-size:var(--fs-sm)}

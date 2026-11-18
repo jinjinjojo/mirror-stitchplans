@@ -1,0 +1,1 @@
+.contact-band{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:var(--s-7)}.contact-band h2{margin:0 0 var(--s-2);font-size:var(--fs-2xl);font-weight:700}.contact-band>div>p{margin:0 0 var(--s-4);color:var(--fog)}.contact-band form{display:grid;gap:var(--s-3)}

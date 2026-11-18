@@ -1,0 +1,1 @@
+.consent-row{display:grid;grid-template-columns:auto 1fr;gap:var(--s-2) var(--s-3);padding:var(--s-3);border:1px solid var(--line2);border-radius:var(--r-card);font-size:var(--fs-md);cursor:pointer}.consent-row input{margin-top:2px}.consent-row small{display:block;color:var(--fog);font-size:var(--fs-sm)}.consent-row:has(:checked){border-color:var(--line3);background:var(--fill)}

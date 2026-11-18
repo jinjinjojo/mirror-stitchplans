@@ -1,0 +1,1 @@
+.signature-pad{display:grid;gap:var(--s-2)}.signature-pad canvas{width:100%;height:160px;border:1px dashed var(--line3);border-radius:var(--r-card);background:var(--fill);touch-action:none;cursor:crosshair}.signature-pad>div{display:flex;justify-content:space-between;align-items:center;gap:var(--s-3);color:var(--fog);font-size:var(--fs-sm)}

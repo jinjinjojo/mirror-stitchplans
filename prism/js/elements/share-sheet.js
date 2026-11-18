@@ -1,0 +1,1 @@
+import{define as r,icon as a}from"../core.js";r(".share-sheet",t=>{if(!navigator.share)return;const e=document.createElement("button");e.type="button",e.innerHTML=`${a("share-2")}More`,e.addEventListener("click",()=>navigator.share({title:t.dataset.title||document.title,url:t.dataset.url||location.href}).catch(()=>{})),t.querySelector(".share-sheet-links")?.append(e)});

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url><loc>https://stitchplans.vercel.app/</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>1.0</priority><image:image><image:loc>https://stitchplans.vercel.app/og.png</image:loc></image:image></url>
+<url><loc>https://stitchplans.vercel.app/shaping</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+<url><loc>https://stitchplans.vercel.app/gauge</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+<url><loc>https://stitchplans.vercel.app/sizing</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+<url><loc>https://stitchplans.vercel.app/yarn-needed</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+<url><loc>https://stitchplans.vercel.app/crochet-terms</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+<url><loc>https://stitchplans.vercel.app/abbreviations</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+<url><loc>https://stitchplans.vercel.app/needle-and-hook-sizes</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+<url><loc>https://stitchplans.vercel.app/size-charts</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+<url><loc>https://stitchplans.vercel.app/body-size-charts</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+<url><loc>https://stitchplans.vercel.app/about</loc><lastmod>2026-11-08</lastmod><image:image><image:loc>https://stitchplans.vercel.app/og.png</image:loc></image:image></url>
+<url><loc>https://stitchplans.vercel.app/privacy</loc><lastmod>2026-11-08</lastmod><image:image><image:loc>https://stitchplans.vercel.app/og.png</image:loc></image:image></url>
+<url><loc>https://stitchplans.vercel.app/terms</loc><lastmod>2026-11-08</lastmod><image:image><image:loc>https://stitchplans.vercel.app/og.png</image:loc></image:image></url>
+<url><loc>https://stitchplans.vercel.app/refunds</loc><lastmod>2026-11-08</lastmod><image:image><image:loc>https://stitchplans.vercel.app/og.png</image:loc></image:image></url>
+</urlset>

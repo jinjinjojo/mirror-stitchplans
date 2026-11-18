@@ -1,0 +1,1 @@
+.review-wall{columns:3 240px;column-gap:var(--s-3)}.review-wall.review-wall>*{margin:0 0 var(--s-3);break-inside:avoid}

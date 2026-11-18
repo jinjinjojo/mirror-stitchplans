@@ -1,0 +1,1 @@
+.sim{--sim-gap:var(--s-3);display:grid;gap:var(--sim-gap);min-width:0}.sim-bar{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s-2)}.sim-speed select{width:auto}.sim-time{margin-inline-start:auto;color:var(--fog);font-size:var(--fs-sm);font-variant-numeric:tabular-nums}

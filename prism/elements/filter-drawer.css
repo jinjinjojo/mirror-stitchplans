@@ -1,0 +1,1 @@
+.filter-drawer{display:grid;gap:var(--s-5)}.filter-drawer fieldset{display:grid;gap:var(--s-2);margin:0;padding:0;border:0}.filter-drawer legend{margin-bottom:var(--s-2);font-weight:600}.filter-drawer-foot{position:sticky;bottom:0;display:flex;gap:var(--s-2);padding-block:var(--s-3);background:var(--solid)}.filter-drawer-foot>*{flex:1}

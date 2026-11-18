@@ -1,0 +1,1 @@
+const files=globalThis.pwFiles??{};globalThis.pwFile=e=>files[e]?e.replace(/\.\w+$/,i=>`.${files[e]}${i}`):e,await new Promise(e=>{requestAnimationFrame(()=>setTimeout(e)),setTimeout(e,100)}),await import("./web-app.js");

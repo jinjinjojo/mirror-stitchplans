@@ -1,0 +1,1 @@
+.waveform{display:flex;align-items:center;gap:2px;height:48px;margin:0;padding:0;list-style:none}.waveform li{flex:1;min-width:2px;height:calc(var(--v) * 1%);border-radius:var(--r-pill);background:var(--fill-3)}.waveform li.on{background:var(--accent)}

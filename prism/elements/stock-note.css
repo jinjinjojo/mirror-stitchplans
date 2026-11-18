@@ -1,0 +1,1 @@
+.stock-note{display:inline-flex;align-items:center;gap:var(--s-1);font-size:var(--fs-sm)}.stock-note::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--good)}.stock-note.low::before{background:var(--warm)}.stock-note.out::before{background:var(--bad)}

@@ -1,0 +1,1 @@
+.back-link{display:inline-flex;align-items:center;gap:var(--s-1);min-height:36px;color:var(--fog);font-size:var(--fs-md);font-weight:500;text-decoration:none}.back-link:hover{color:var(--ink)}.back-link .ico{width:16px;height:16px;transition:transform var(--dur-1) var(--ease)}.back-link:hover .ico{transform:translateX(-2px)}
